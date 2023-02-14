@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Sen";
+  src: url("../Assets/Font/Sen-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Font/Inter-VariableFont_slnt\,wght.ttf");
+}
+.siteContainer {
+  /* background-color: aqua; */
+  width: 1440px;
+}
+
+.postContainer {
+  /* background-color: red; */
+  width: 1282px;
+  height: 804px;
+  margin-top: 128px;
+  margin-left: 80px;
+  margin-right: 78px;
+  display: flex;
+}
+
+.featurePostContainer {
+  width: 733px;
+  height: 804px;
+  /* background-color: blue; */
+}
+
+.allPostContainer {
+  width: 549px;
+  height: 804px;
+  /* background-color: yellowgreen; */
+}
+
+.postFeatureTextH1 {
+  position: absolute;
+  margin: 0;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.houseImg {
+  position: absolute;
+  margin: 0;
+  margin-top: 112px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.postFeatureTextAutor {
+  position: absolute;
+  margin: 0;
+  margin-top: 496px;
+  margin-right: 499px;
+  margin-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4c4c4c;
+}
+
+.colorPostText {
+  color: #592ea9;
+}
+
+.postFeatureTextH2 {
+  position: absolute;
+  margin: 0;
+  width: 669px;
+  height: 80px;
+  margin-top: 532px;
+  margin-right: 32px;
+  margin-left: 32px;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+}
+
+.postFeatureText {
+  position: absolute;
+  margin: 0;
+  width: 551px;
+  height: 56px;
+  margin-top: 628px;
+  margin-right: 150px;
+  margin-left: 32px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+.postButton {
+  position: absolute;
+  margin: 0;
+  width: 204px;
+  height: 56px;
+  margin-top: 716px;
+  margin-right: 497px;
+  margin-left: 32px;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  border: 0;
+  background: #ffd050;
+}
+
+.postAllText {
+  color: #ffd050;
+}
