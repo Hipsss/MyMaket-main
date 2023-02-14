@@ -18,7 +18,7 @@ import "./Posts.css";
 //   <userPost name={author.name} id={author.id} />
 // ));
 
-// ptivet
+// ptivet sadasdasd
 export default function Posts() {
   return (
     <div className="siteContainer">
