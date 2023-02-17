@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Sen";
+  src: url("../Assets/Font/Sen-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.aboutUsContainer {
+  width: 1280px;
+  height: 523px;
+  margin: 0;
+  margin-top: 160px;
+  margin-left: 120px;
+  background-color: red;
+}
+
+#rectangle {
+  width: 1280px;
+  height: 500px;
+  margin: 0;
+  margin-top: 23px;
+  margin-left: 120px;
+  background-color: #f4f0f8;
+}

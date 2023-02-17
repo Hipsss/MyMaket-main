@@ -49,7 +49,15 @@ export default function Posts() {
           <button className="postButton">{"Read more >"}</button>
         </div>
         <div className="allPostContainer">
-          <UserPost />
+          <div className="allPostHeaderCountainer">
+            <h1 className="allPostTextH1">{"All Posts"}</h1>
+            <a className="allPostLink" href="#">
+              {"View All"}
+            </a>
+          </div>
+          <div className="postsContainer">
+            <UserPost />
+          </div>
         </div>
       </div>
     </div>

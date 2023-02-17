@@ -7,10 +7,12 @@ export default function UserPosts() {
     <ul>
       {Post.map((user, index) => {
         return (
-          <li key={index}>
+          <li className="postAllLi" key={index}>
             <p className="postAllTextAutor">
               {"By "}
-              <span className="colorAllPostText">{user.name}</span>
+              <span className="colorAllPostText">
+                {user.name} {user.surname}
+              </span>
               {"  |  May 23, 2022 "}
             </p>
             <p className="postAllText">{user.description}</p>
