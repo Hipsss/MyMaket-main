@@ -9,19 +9,129 @@
 }
 
 .aboutUsContainer {
-  width: 1280px;
-  height: 523px;
-  margin: 0;
-  margin-top: 160px;
-  margin-left: 120px;
-  background-color: red;
-}
-
-#rectangle {
-  width: 1280px;
+  width: 1282px;
   height: 500px;
   margin: 0;
-  margin-top: 23px;
-  margin-left: 120px;
+  margin-top: 151px;
+  margin-left: 80px;
   background-color: #f4f0f8;
+  display: flex;
+}
+
+.yellowFigure {
+  width: 843px;
+  height: 23px;
+  background: #ffd050;
+  position: absolute;
+  margin-top: 128px;
+  margin-left: 380px;
+}
+
+.purpleFigure {
+  width: 282px;
+  height: 23px;
+  background: #592ea9;
+  position: absolute;
+  margin-top: 128px;
+  margin-left: 1120px;
+}
+
+.aboutUs {
+  width: 515px;
+  height: 308px;
+  margin-top: 98px;
+  margin-left: 80px;
+}
+
+.aboutUsH2 {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+
+.aboutUsPretext {
+  width: 494px;
+  height: 144px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.aboutUsText {
+  width: 515px;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.aboutUsLink {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #592ea9;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.ourMision {
+  width: 516px;
+  height: 248.73px;
+  margin-top: 98px;
+  margin-left: 61px;
+}
+
+.ourMisionH2 {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+
+.ourMisionPretext {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+  margin: 0;
+  margin-top: 24px;
+}
+
+.ourMisionText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+  margin: 0;
+  margin-top: 16px;
 }

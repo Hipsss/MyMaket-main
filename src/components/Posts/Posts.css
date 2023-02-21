@@ -8,31 +8,28 @@
   src: url("../Assets/Font/Inter-VariableFont_slnt\,wght.ttf");
 }
 .siteContainer {
-  /* background-color: aqua; */
   width: 1282px;
   margin-left: 80px;
+  background-color: red;
 }
 
 .postContainer {
-  /* background-color: red; */
   width: 1282px;
   height: 804px;
   margin-top: 128px;
   margin-left: 80px;
-  margin-right: 78px;
   display: flex;
 }
 
 .featurePostContainer {
   width: 733px;
   height: 804px;
-  /* background-color: blue; */
+  background-color: #592ea9;
 }
 
 .allPostContainer {
   width: 549px;
   height: 804px;
-  /* background-color: yellowgreen; */
 }
 
 .postFeatureTextH1 {

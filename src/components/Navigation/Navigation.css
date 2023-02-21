@@ -1,70 +1,3 @@
-/* nav {
-  width: 100%;
-  height: 80px;
-}
-
-.navBur {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #232536;
-}
-
-.navList {
-  list-style-type: none;
-  margin-left: 844px;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.navListElement {
-  display: inline-block;
-  margin-bottom: 15px;
-  margin-left: 24px;
-}
-
-.navListContainer {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.navButtonContainer {
-  margin-right: 80px;
-}
-
-.buttonSubscribe {
-  width: 179px;
-  height: 56px;
-
-  font-family: "Sen";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-}
-.buttonSubscribe:active {
-  width: 177px;
-  height: 54px;
-}
-
-.navLogoContainer {
-  margin-left: 83px;
-}
-
-.navListLink {
-  display: inline-block;
-  font-size: 16px;
-  text-decoration: none;
-  color: #ffffff;
-  padding: 24;
-}
-
-.navListLink:hover {
-  color: #808080;
-} */
-
 @font-face {
   font-family: "Sen";
   src: url("../Assets/Font/Sen-Bold.ttf");
@@ -76,7 +9,7 @@
 }
 
 .navBur {
-  width: 100vw;
+  width: 1440px;
   height: 80px;
   display: flex;
   justify-content: space-between;
