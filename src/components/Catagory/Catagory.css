@@ -3,5 +3,36 @@
   height: 324px;
   margin-top: 128px;
   margin-left: 80px;
-  background-color: aquamarine;
+  display: flex;
+}
+
+.catagoryItem {
+  width: 296px;
+  height: 228px;
+  border: 1px solid #6d6e76;
+  margin-left: 32px;
+}
+
+.catagoryH3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+  margin: 0;
+  margin-top: 96px;
+  margin-left: 32px;
+}
+
+.catagoryText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+  margin-top: 4px;
+  margin-left: 32px;
 }
