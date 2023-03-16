@@ -10,7 +10,6 @@
 .siteContainer {
   width: 1282px;
   margin-left: 80px;
-  background-color: red;
 }
 
 .postContainer {
@@ -108,11 +107,9 @@
 
 .postButton {
   position: absolute;
-  margin: 0;
   width: 204px;
   height: 56px;
   margin-top: 716px;
-  margin-right: 497px;
   margin-left: 32px;
 
   font-family: "Sen";

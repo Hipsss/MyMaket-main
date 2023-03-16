@@ -6,10 +6,25 @@
   display: flex;
 }
 
+.catagoryH2 {
+  position: absolute;
+  width: 302px;
+  height: 48px;
+  margin-left: 489px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
 .catagoryItem {
   width: 296px;
   height: 228px;
-  border: 1px solid #6d6e76;
+  border: 1px solid rgba(109, 110, 118, 0.3);
+  margin-top: 94px;
   margin-left: 32px;
 }
 
@@ -34,5 +49,34 @@
   line-height: 28px;
   color: #6d6e76;
   margin-top: 4px;
+  margin-left: 32px;
+}
+
+.backgroundSvg {
+  z-index: 1;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: #fbf6ea;
+  margin-top: 32px;
+  margin-left: 32px;
+  border-radius: 20%;
+}
+
+.catagorySvgRocket {
+  z-index: 1;
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background-color: #fbf6ea;
+  margin-top: 44px;
+  margin-left: 44px;
+  border-radius: 20%;
+}
+
+.catagorySvg {
+  position: absolute;
+  z-index: 2;
+  margin-top: 32px;
   margin-left: 32px;
 }

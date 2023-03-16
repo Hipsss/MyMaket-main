@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Sen";
+  src: url("../Assets//Font/Sen-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.joinTeamContainer {
+  width: 414px;
+  height: 256px;
+  margin-top: 128px;
+  margin-left: 513px;
+}
+
+.joinTeamH2 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.joinTeamText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6d6e76;
+}
+
+.joinTeamButton {
+  width: 174px;
+  height: 56px;
+  margin-top: 32px;
+  margin-left: 120px;
+  border: 0;
+  background-color: #ffd050;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  color: #232536;
+}

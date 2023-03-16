@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Sen";
+  src: url("../Assets/Font/Sen-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.specialPostContainer {
+  position: relative;
+  width: 1282px;
+  height: 705px;
+  margin-top: 128px;
+  margin-left: 80px;
+  display: flex;
+}
+
+.specialPostImg {
+  width: 949px;
+  height: 705px;
+}
+
+.specialPostSquare {
+  position: absolute;
+  width: 706px;
+  height: 584px;
+  margin-top: 122px;
+  margin-left: 574px;
+  background-color: #ffff;
+}
+
+.specialPostH2 {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+
+.specialPostPretext {
+  position: absolute;
+  margin-top: 124px;
+  margin-left: 80px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.specialPostText {
+  position: absolute;
+  margin-top: 332px;
+  margin-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+.specialPostButton {
+  position: absolute;
+  margin-top: 448px;
+  margin-left: 80px;
+  width: 269px;
+  height: 56px;
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  background: #ffd050;
+  border: 0;
+  color: #232536;
+}

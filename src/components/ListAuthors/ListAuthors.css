@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Sen";
+  src: url("../Assets//Font/Sen-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+.listAuthorsH2 {
+  position: absolute;
+  margin-left: 547px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.listAuthorsContainer {
+  display: flex;
+  width: 1282px;
+  height: 420px;
+  margin-top: 128px;
+  margin-left: 48px;
+}
+
+.listAuthorListContainer {
+  display: flex;
+}
+
+.listAuthorsList {
+  width: 296px;
+  height: 324px;
+  background-color: #f4f4f4;
+  margin-top: 96px;
+  margin-left: 32px;
+}
+
+.listAuthorsImg {
+  border-radius: 100px;
+  margin-top: 40px;
+  margin-left: 84px;
+}
+
+.listAuthorsName {
+  margin-top: 20px;
+  margin-left: 76px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+}
+
+.listAuthorsProfession {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #6d6e76;
+}
+
+.listAuthorsSocialContainer {
+  width: 112px;
+  height: 16px;
+  margin-left: 76px;
+  display: flex;
+}
+
+.listAuthorsImgLink {
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.listAuthorsList:first-child {
+  margin: 0;
+}
